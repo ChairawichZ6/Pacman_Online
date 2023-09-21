@@ -10,11 +10,18 @@ const obstacles = [
     // Outer walls
     { x: 50, y: 50, width: 20, height: 400, color: 'red' },
     { x: 50, y: 50, width: 400, height: 20, color: 'red' },
-    { x: 50, y: 430, width: 400, height: 20, color: 'red' },
+    { x: 50, y: 450, width: 400, height: 20, color: 'red' },
+    // Additional outer wall
+    { x: 730, y: 100, width: 20, height: 300, color: 'red' },
+    { x: 230, y: 150, width: 20, height: 500, color: 'red' },
+    { x: 50, y: 100, width: 20, height: 320, color: 'red' },
+    { x: 230, y: 350, width: 20, height: 500, color: 'red' },
+    { x: 400, y: 200, width: 20, height: 250, color: 'red' },
+    { x: 800, y: 600, width: 20, height: 600, color: 'red' },
 
+// Add more obstacles here
 ];
 
-    // Add more obstacles here
 
 let players = {};
 let imageCache = {};
