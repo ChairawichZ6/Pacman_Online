@@ -1,49 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacman Online</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/style.css') }}"
-    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
-  </head>
-  <body>
+    <style>
+        /* Add CSS styles for buttons */
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Add some spacing between the input fields and buttons */
+        #lobby input, button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
     <div id="lobby">
-      <input
-        type="text"
-        id="pacmanImageUrl"
-        placeholder="Enter Pacman Image URL"
-      />
-      <button onclick="createGame()">Create Game</button>
-      <input id="gameIdInput" placeholder="Enter Game ID" />
-      <button onclick="joinGame()">Join Game</button>
+        <input type="text" id="pacmanImageUrl" placeholder="Enter Pacman Image URL">
+        <button onclick="createGame()">Create Game</button>
+        <input id="gameIdInput" placeholder="Enter Game ID">
+        <button onclick="joinGame()">Join Game</button>
     </div>
-    <canvas
-      id="gameCanvas"
-      width="900"
-      height="900"
-      style="display: none"
-    ></canvas>
-    <div
-      id="title"
-      style="
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        font-size: 36px;
-        font-weight: bold;
-        color: white;
-        width: 100%;
-        text-align: center;
-      "
-    >
-      Pacman Online
+    <canvas id="gameCanvas" width="900" height="900" style="display: none;"></canvas>
+    <div id="title" style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); font-size: 36px; font-weight: bold; color: white; width: 100%; text-align: center;">
+        Bac-man Online
     </div>
 
     <script src="{{ url_for('static', filename='js/game.js') }}"></script>
-  </body>
+</body>
 </html>
