@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacman Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+</head>
+<body>
+    <div id="lobby">
+        <input type="text" id="pacmanImageUrl" placeholder="Enter Pacman Image URL">
+        <button onclick="createGame()">Create Game</button>
+        <input id="gameIdInput" placeholder="Enter Game ID">
+        <button onclick="joinGame()">Join Game</button>
+    </div>
+    <canvas id="gameCanvas" width="900" height="900" style="display: none;"></canvas>
+
+
+    <script src="{{ url_for('static', filename='js/game.js') }}"></script>
+    
+</body>
+</html>
