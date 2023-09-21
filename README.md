@@ -3,7 +3,7 @@
 
 # ตัวอย่างเกม
 
-![example](https://cdn.discordapp.com/attachments/969189988904357969/1154097695145857114/image.png)  
+![example](https://discord.com/channels/@me/871566159789588481/1154345361280868402)  
 
 ## วิธีการเริ่มต้น
 
