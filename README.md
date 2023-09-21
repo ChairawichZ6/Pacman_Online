@@ -1,4 +1,4 @@
-# Pacman แบบกาว ๆ 
+# Bacman แบบกาว ๆ 
 โปรเจกต์ Flask Socket.io Pacman ซึ่งเป็นเกม Pacman แบบสดใสที่สามารถเล่นกับเพื่อนๆ ได้ผ่านการเชื่อมต่อแบบ realtime โดยใช้ Flask และ Socket.io
 
 # ตัวอย่างเกม
