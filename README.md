@@ -3,7 +3,7 @@
 
 # ตัวอย่างเกม
 
-![https://cdn.discordapp.com/attachments/871566159789588481/1154345360735621150/Bac-man_Inrerface.PNG  
+![https://cdn.discordapp.com/attachments/871566159789588481/1154345360735621150/Bac-man_Inrerface.PNG](https://cdn.discordapp.com/attachments/871566159789588481/1154345360735621150/Bac-man_Inrerface.PNG) 
 
 ## วิธีการเริ่มต้น
 
